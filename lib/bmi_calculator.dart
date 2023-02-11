@@ -1,3 +1,5 @@
+// ignore_for_file: sized_box_for_whitespace
+
 import 'package:flutter/material.dart';
 
 class BMICalculator extends StatefulWidget {
@@ -136,7 +138,7 @@ class _BMICalculatorState extends State<BMICalculator> {
               Container(
                 width: double.infinity,
                 child: Text(
-                  "$result",
+                  result,
                   textAlign: TextAlign.center,
                   style: const TextStyle(
                       fontSize: 40.0,
@@ -161,6 +163,8 @@ class _BMICalculatorState extends State<BMICalculator> {
           changeIndex(index);
         },
         color: currentIndex == index ? color : Colors.grey[300],
+        shape:
+            RoundedRectangleBorder(borderRadius: BorderRadius.circular(15.0)),
         child: Text(
           gender,
           style: TextStyle(
@@ -168,8 +172,6 @@ class _BMICalculatorState extends State<BMICalculator> {
               fontSize: 18.0,
               fontWeight: FontWeight.bold),
         ),
-        shape:
-            RoundedRectangleBorder(borderRadius: BorderRadius.circular(15.0)),
       ),
     ));
   }

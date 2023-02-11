@@ -63,7 +63,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 MaterialButton(
                   onPressed: () {
                     Navigator.pushReplacement(
-                        context, MaterialPageRoute(builder: (context) => HomeScreen()));
+                        context, MaterialPageRoute(builder: (context) => const HomeScreen()));
 
                   },
                   color: Colors.red,
@@ -76,7 +76,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     ),
                   ),
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 20,
                 ),
                 Row(
@@ -86,7 +86,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     GestureDetector(
                       onTap: () {
                         Navigator.pushReplacement(
-                            context, MaterialPageRoute(builder: (context) => RegistrationScreen()));
+                            context, MaterialPageRoute(builder: (context) => const RegistrationScreen()));
                       },
                       child: const Text(
                         "   Sign Up",

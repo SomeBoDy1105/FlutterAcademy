@@ -1,5 +1,5 @@
 import 'package:febacademy/login_screen.dart';
-import 'package:febacademy/splash_screen.dart';
+import 'splash_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -7,8 +7,8 @@ void main() {
     initialRoute: '/splashScreen',
     debugShowCheckedModeBanner: false,
     routes: {
-      '/loginScreen':(context) => LoginScreen(),
-      '/splashScreen':(context) => SplashScreen(),
+      '/loginScreen':(context) => const LoginScreen(),
+      '/splashScreen':(context) => const SplashScreen(),
     },
   ));
 }

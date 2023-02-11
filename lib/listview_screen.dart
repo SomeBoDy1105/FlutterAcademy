@@ -12,149 +12,149 @@ class _ListViewScreenState extends State<ListViewScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("ListVew Page"),
+        title: const Text("ListVew Page"),
       ),
       body: ListView(
-        padding: EdgeInsets.all(10.0),
+        padding: const EdgeInsets.all(10.0),
         children: [
           Container(
             color: Colors.grey[200],
-            child: ListTile(
+            child: const ListTile(
               leading: Icon(Icons.directions_bike),
               title: Text("Bike"),
             ),
           ),
-          SizedBox(
+          const SizedBox(
             height: 5,
           ),
           Container(
             color: Colors.grey[200],
-            child: ListTile(
+            child: const ListTile(
               leading: Icon(Icons.directions_bike),
               title: Text("Bike"),
             ),
           ),
-          SizedBox(
+          const SizedBox(
             height: 5,
           ),
           Container(
             color: Colors.grey[200],
-            child: ListTile(
+            child: const ListTile(
               leading: Icon(Icons.directions_bike),
               title: Text("Bike"),
             ),
           ),
-          SizedBox(
+          const SizedBox(
             height: 5,
           ),
           Container(
             color: Colors.grey[200],
-            child: ListTile(
+            child: const ListTile(
               leading: Icon(Icons.directions_bike),
               title: Text("Bike"),
             ),
           ),
-          SizedBox(
+          const SizedBox(
             height: 5,
           ),
           Container(
             color: Colors.grey[200],
-            child: ListTile(
+            child: const ListTile(
               leading: Icon(Icons.directions_bike),
               title: Text("Bike"),
             ),
           ),
-          SizedBox(
+          const SizedBox(
             height: 5,
           ),
           Container(
             color: Colors.grey[200],
-            child: ListTile(
+            child: const ListTile(
               leading: Icon(Icons.directions_bike),
               title: Text("Bike"),
             ),
           ),
-          SizedBox(
+          const SizedBox(
             height: 5,
           ),
           Container(
             color: Colors.grey[200],
-            child: ListTile(
+            child: const ListTile(
               leading: Icon(Icons.directions_bike),
               title: Text("Bike"),
             ),
           ),
-          SizedBox(
+          const SizedBox(
             height: 5,
           ),
           Container(
             color: Colors.grey[200],
-            child: ListTile(
+            child: const ListTile(
               leading: Icon(Icons.directions_bike),
               title: Text("Bike"),
             ),
           ),
-          SizedBox(
+          const SizedBox(
             height: 5,
           ),
           Container(
             color: Colors.grey[200],
-            child: ListTile(
+            child: const ListTile(
               leading: Icon(Icons.directions_bike),
               title: Text("Bike"),
             ),
           ),
-          SizedBox(
+          const SizedBox(
             height: 5,
           ),
           Container(
             color: Colors.grey[200],
-            child: ListTile(
+            child: const ListTile(
               leading: Icon(Icons.directions_bike),
               title: Text("Bike"),
             ),
           ),
-          SizedBox(
+          const SizedBox(
             height: 5,
           ),
           Container(
             color: Colors.grey[200],
-            child: ListTile(
+            child: const ListTile(
               leading: Icon(Icons.directions_bike),
               title: Text("Bike"),
             ),
           ),
-          SizedBox(
+          const SizedBox(
             height: 5,
           ),
           Container(
             color: Colors.grey[200],
-            child: ListTile(
+            child: const ListTile(
               leading: Icon(Icons.directions_bike),
               title: Text("Bike"),
             ),
           ),
-          SizedBox(
+          const SizedBox(
             height: 5,
           ),
           Container(
             color: Colors.grey[200],
-            child: ListTile(
+            child: const ListTile(
               leading: Icon(Icons.directions_bike),
               title: Text("Bike"),
             ),
           ),
-          SizedBox(
+          const SizedBox(
             height: 5,
           ),
           Container(
             color: Colors.grey[200],
-            child: ListTile(
+            child: const ListTile(
               leading: Icon(Icons.directions_bike),
               title: Text("Bike"),
             ),
           ),
-          SizedBox(
+          const SizedBox(
             height: 5,
           ),
         ],

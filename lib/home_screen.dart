@@ -1,3 +1,5 @@
+// ignore_for_file: unused_import
+
 import 'package:febacademy/basic_widget_screen.dart';
 import 'package:febacademy/bmi_calculator.dart';
 import 'package:febacademy/grid_view_screen.dart';
@@ -19,7 +21,7 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: AppBar(
         title: const Text("Home Page"),
       ),
-      drawer: Drawer(
+      drawer: const Drawer(
         child: SingleChildScrollView(
           child: Column(
             children: [
@@ -100,22 +102,22 @@ class _HomeScreenState extends State<HomeScreen> {
               children: [
                 GestureDetector(
                   onTap: (){
-                    Navigator.push(context, MaterialPageRoute(builder: (context)=>BasicWidgetScreen()));
+                    Navigator.push(context, MaterialPageRoute(builder: (context)=>const BasicWidgetScreen()));
                   },
                   child: Container(
-                    padding: EdgeInsets.all(20),
-                    margin: EdgeInsets.all(20),
+                    padding: const EdgeInsets.all(20),
+                    margin: const EdgeInsets.all(20),
                     decoration: BoxDecoration(
                       border: Border.all(color: Colors.black,width: 4),
                       borderRadius: BorderRadius.circular(50),
-                      boxShadow: [
+                      boxShadow: const [
                         BoxShadow(
                           color: Colors.green,
                           offset: Offset(6.0,6.0)
                         )
                       ]
                     ),
-                    child: Center(
+                    child: const Center(
                       child: Text(
                         "Basic Widget App",
                         style: TextStyle(
@@ -128,22 +130,22 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
                 GestureDetector(
                   onTap: (){
-                    Navigator.push(context, MaterialPageRoute(builder: (context)=>BMICalculator()));
+                    Navigator.push(context, MaterialPageRoute(builder: (context)=>const BMICalculator()));
                   },
                   child: Container(
-                    padding: EdgeInsets.all(20),
-                    margin: EdgeInsets.all(20),
+                    padding: const EdgeInsets.all(20),
+                    margin: const EdgeInsets.all(20),
                     decoration: BoxDecoration(
                         border: Border.all(color: Colors.black,width: 4),
                         borderRadius: BorderRadius.circular(50),
-                        boxShadow: [
+                        boxShadow: const [
                           BoxShadow(
                               color: Colors.green,
                               offset: Offset(6.0,6.0)
                           )
                         ]
                     ),
-                    child: Center(
+                    child: const Center(
                       child: Text(
                         "BMI Calculator",
                         style: TextStyle(
@@ -156,22 +158,22 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
                 GestureDetector(
                   onTap: (){
-                    Navigator.push(context, MaterialPageRoute(builder: (context)=>BasicWidgetScreen()));
+                    Navigator.push(context, MaterialPageRoute(builder: (context)=>const BasicWidgetScreen()));
                   },
                   child: Container(
-                    padding: EdgeInsets.all(20),
-                    margin: EdgeInsets.all(20),
+                    padding: const EdgeInsets.all(20),
+                    margin: const EdgeInsets.all(20),
                     decoration: BoxDecoration(
                         border: Border.all(color: Colors.black,width: 4),
                         borderRadius: BorderRadius.circular(50),
-                        boxShadow: [
+                        boxShadow: const [
                           BoxShadow(
                               color: Colors.green,
                               offset: Offset(6.0,6.0)
                           )
                         ]
                     ),
-                    child: Center(
+                    child: const Center(
                       child: Text(
                         "Todolist App",
                         style: TextStyle(
@@ -184,22 +186,22 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
                 GestureDetector(
                   onTap: (){
-                    Navigator.push(context, MaterialPageRoute(builder: (context)=>BasicWidgetScreen()));
+                    Navigator.push(context, MaterialPageRoute(builder: (context)=>const BasicWidgetScreen()));
                   },
                   child: Container(
-                    padding: EdgeInsets.all(20),
-                    margin: EdgeInsets.all(20),
+                    padding: const EdgeInsets.all(20),
+                    margin: const EdgeInsets.all(20),
                     decoration: BoxDecoration(
                         border: Border.all(color: Colors.black,width: 4),
                         borderRadius: BorderRadius.circular(50),
-                        boxShadow: [
+                        boxShadow: const [
                           BoxShadow(
                               color: Colors.green,
                               offset: Offset(6.0,6.0)
                           )
                         ]
                     ),
-                    child: Center(
+                    child: const Center(
                       child: Text(
                         "WorldTime App",
                         style: TextStyle(
@@ -212,22 +214,22 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
                 GestureDetector(
                   onTap: (){
-                    Navigator.push(context, MaterialPageRoute(builder: (context)=>BasicWidgetScreen()));
+                    Navigator.push(context, MaterialPageRoute(builder: (context)=>const BasicWidgetScreen()));
                   },
                   child: Container(
-                    padding: EdgeInsets.all(20),
-                    margin: EdgeInsets.all(20),
+                    padding: const EdgeInsets.all(20),
+                    margin: const EdgeInsets.all(20),
                     decoration: BoxDecoration(
                         border: Border.all(color: Colors.black,width: 4),
                         borderRadius: BorderRadius.circular(50),
-                        boxShadow: [
+                        boxShadow: const [
                           BoxShadow(
                               color: Colors.green,
                               offset: Offset(6.0,6.0)
                           )
                         ]
                     ),
-                    child: Center(
+                    child: const Center(
                       child: Text(
                         "Firebase Chat App",
                         style: TextStyle(
@@ -240,22 +242,22 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
                 GestureDetector(
                   onTap: (){
-                    Navigator.push(context, MaterialPageRoute(builder: (context)=>BasicWidgetScreen()));
+                    Navigator.push(context, MaterialPageRoute(builder: (context)=>const BasicWidgetScreen()));
                   },
                   child: Container(
-                    padding: EdgeInsets.all(20),
-                    margin: EdgeInsets.all(20),
+                    padding: const EdgeInsets.all(20),
+                    margin: const EdgeInsets.all(20),
                     decoration: BoxDecoration(
                         border: Border.all(color: Colors.black,width: 4),
                         borderRadius: BorderRadius.circular(50),
-                        boxShadow: [
+                        boxShadow: const [
                           BoxShadow(
                               color: Colors.green,
                               offset: Offset(6.0,6.0)
                           )
                         ]
                     ),
-                    child: Center(
+                    child: const Center(
                       child: Text(
                         "Unit Test App",
                         style: TextStyle(

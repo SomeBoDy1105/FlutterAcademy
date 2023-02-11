@@ -12,13 +12,13 @@ class _ToastScreenState extends State<ToastScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
     appBar: AppBar(
-      title: Text("Toast Page"),
+      title: const Text("Toast Page"),
     ),
       body: Center(
         child: MaterialButton(
           onPressed: showToast,
           color: Colors.red,
-          child: Text("Show Toast Example",
+          child: const Text("Show Toast Example",
           style: TextStyle(
             color: Colors.white,
             fontWeight: FontWeight.bold,
